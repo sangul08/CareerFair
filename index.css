@@ -1,0 +1,98 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+#career-fair-header {
+	text-align: center;	
+	font-size: 2rem;
+	letter-spacing: 0.2rem;
+	margin: 0px;
+}
+#career-fair-header {
+	background-color: rgba(243, 110, 33, 1);
+	color: white;
+}
+.col {
+	background: #757F9A;
+	background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+	background: linear-gradient(to right, #D7DDE8, #757F9A);
+	padding: 0px;
+	height: 100%;
+}
+#user_data {
+	background-color: white;
+	min-width: 500px;
+	width: 500px;
+	height: 520px;
+	max-height: 520px;
+	box-shadow: 0 0 40px -10px;
+	font-size: 14px;
+	padding: 20px;
+	font-size: 15px;
+	overflow: hidden;
+	border-radius: 15px;
+	display: inline-block;
+}
+#form-header{
+	font-size: 20px;
+	margin: 25px 0;
+	padding-bottom: 10px;
+	color: #78788c;
+	border-bottom: 3px solid #78788c;
+}
+label{
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+input{
+	border: none;
+	outline: none;
+	background: none;
+	box-sizing: border-box;
+	resize: vertical;
+	border-bottom: 1px solid #bebed2;
+	width: 100%;
+	padding: 12px;
+}
+input[type="radio"]{
+	width: 30%;
+	margin-left: 0px;
+	border-bottom: 0px; 
+}
+input:focus{
+	border-bottom: 2px solid #7878788c;
+}
+input[type="button"] { 
+	float:right;
+	padding: 8px 12px;
+	display: block;
+	margin: 8px 0 0;
+	border: 2px solid #78788c;
+	color: #5a5a6e;
+	cursor: pointer;
+}
+input[type="button"]:hover{
+	background: #78788c;
+	color: #fff;
+}
+li{
+	display: inline-block;
+	width: 32.7%;
+	height: 100%;
+	float:left;
+}
+ul {
+	height: 190px;
+	width: 580px;
+	max-width: 580px;
+	display: block;
+    margin: auto auto;
+	padding: 0px;
+	float:right;
+}
+#calender{
+	width: 70px;
+	height: 70px; 
+	position:absolute
+}
+

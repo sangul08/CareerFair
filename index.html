@@ -1,0 +1,203 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="index.css">
+<script src="cookies.js"></script>
+<script>
+function clickMe(){
+var auth = document.getElementsByName('Auth');
+
+//checking if local storage is present
+if(window.localStorage){
+	var user_name = document.getElementById("name");
+	var user_email = document.getElementById("email");
+	for(var i=0; i< auth.length; i++){
+		if(auth[i].checked){
+				localStorage.setItem('auth', auth[i].value);
+		}
+	}
+	console.log(user_name.value);
+	console.log(user_email.value);
+	localStorage.setItem('name', user_name.value);
+	localStorage.setItem('email', user_email.value);
+}
+//if cookie work on a browser	
+else{
+	console.log("from cookies");
+	var username = GetCookie('name');
+	if(username == "" || username == null){
+		var name = document.getElementById("name");
+		var email = document.getElementById("email");
+		var auth = document.getElementsByName('Auth');
+		console.log(name);
+		console.log(email);
+		for(var i=0; i< auth.length; i++){
+			if(auth[i].checked){
+				SetCookie('auth', auth[i].value);
+			}
+		}
+		SetCookie('name', name.value);
+		console.log(GetCookie('name'));
+		SetCookie('email', email.value);
+		}	
+}
+//validation
+	
+//check if name and email have been entered
+if( document.getElementById("user_data").name.value == "" || document.getElementById("user_data").email.value == ""){
+    alert( "Please provide your complete information!" );
+	return;
+}
+	
+//check if one of the checkboxes have been selected
+var count = 0;
+	for(var i=0; i< auth.length; i++){
+		//console.log(auth.length);
+		if(auth[i].checked){
+			count=1;
+		}
+	}
+	//console.log(count);
+	if(count != 1) {
+		alert( "Please check 'Yes' if you require US Authorization otherwise check 'No'!" );
+		return;
+	}
+	
+//name validation
+var nameExp = /^[A-Za-z0-9 ]+$/;
+var name = document.getElementById('user_data').name;
+if(!(name.value.match(nameExp))){
+	alert("Please enter a valid name.");
+	name.focus();
+	return;
+}
+
+//email validation
+var email = document.getElementById('user_data').email.value;
+at = email.indexOf("@");
+dot = email.lastIndexOf(".");
+//console.log(at);
+//console.log(dot);
+if (at < 1 || ( dot - at < 2 )){
+    alert("Please enter correct email ID")
+    document.getElementById('user_data').email.focus();
+	return;
+}
+
+//On submit, go to selection page!	
+window.location = "slect.html";
+}
+
+function myMove() {
+  var elem = document.getElementById("calender");   
+  var pos = 0;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (pos === document.body.offsetWidth - 70) {
+      clearInterval(id);
+	  moveLeft();
+    } else {
+      pos++; 
+      elem.style.left = pos + 'px'; 
+    }
+  }
+}
+function moveLeft() {
+var elem = document.getElementById("calender");   
+  var pos = document.body.offsetWidth - 70;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (pos === 0) {
+      clearInterval(id);
+	  myMove();
+    } else {
+      pos--; 
+      elem.style.left = pos + 'px'; 
+    }
+  }
+
+}
+function init() { 
+	console.log("here");
+	myMove();
+	if(window.localStorage){
+		if(localStorage.getItem('name') != null) 
+		{
+			var user_name = localStorage.getItem('name');
+			document.getElementById('name').value = user_name;
+			var user_email = localStorage.getItem('email');
+			document.getElementById('email').value = user_email;
+		}
+	}
+	if(GetCookie('name') != null ) {
+		console.log("loading");
+		var user_name = GetCookie('name');
+		document.getElementById('name').value = user_name;
+		var user_email = GetCookie('email');
+		document.getElementById('email').value = user_email;
+	}
+}
+</script>
+</head>
+
+<body onload="init()">
+		<div class="container col">
+			<h1 id="career-fair-header">Career Fair 2017</h1>
+			<div style="width: 100%; height: 70px;" position="relative">
+				<div id="calender"><img  src="calender.jpg" width="70px" height="70px" ></div>
+			</div>
+			<div style="width: 49%; min-width: 49%; display: inline-block; margin-bottom: 0px; margin-top: 30px; float:left;">
+				<ul>
+					<li>&nbsp;</li>
+					<li> &nbsp;</li>
+					<li><img src="bg1.jpg" height="100%" width="100%"></li>
+				</ul>
+				<ul>
+					<li>&nbsp;</li>
+					<li><img src="bg3.jpg" height="100%" width="100%"></li>
+					<li><img src="bg.jpg" height="100%" width="100%"></li>
+				</ul>
+				<ul>
+					<li><img src="bg2.jpg" height="100%" width="100%"></li>
+					<li><img src="bg4.jpg" height="100%" width="100%"></li>
+					<li>&nbsp;</li>
+				</ul>
+			</div>
+			<div style="width: 49%; min-width: 49%; display: inline-block; margin-top: 30px;">
+				<form id="user_data" method="" action="">
+					<div class="row">
+				`		<p id="form-header">Enter your information please.</p>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label>Name:</label>
+						</div>
+						<div class="col-75">
+							<input type="text" name="name" class="stored" value="" id="name"/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">	
+							<label>Email:</label>
+						</div>
+						<div class="col-75">
+							<input type="text" name="email" class="stored" value="" id="email"/>
+						</div>
+					</div>
+					<div class="row">
+						<label>Do you require US Sponsorship:</label>
+					</div>
+					<div class="row">
+						<div class="col-50" style="margin-bottom: 20px;">
+							<div><input type="radio" name="Auth" value="2">Yes</div>
+							<div><input type="radio" name="Auth" value="1">No</div>
+						</div>
+					</div>
+					<div class="row">
+						<input type="button" value="Submit" onclick="clickMe();">
+					</div>
+				</form>
+			</div>
+			<!-- <h3 id="count-down"><h3> -->
+		</div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+body{
+	margin: 0px;
+	padding:0;
+	background: #757F9A;
+	background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+	background: linear-gradient(to right, #D7DDE8, #757F9A);
+}
+#user_name {
+	float: left;
+	margin-top: 0px;
+	width: 100%;
+	background-color: orange;
+	font-size: 1rem;
+}
+#main {
+	background-color: white;
+	margin: 70px auto;
+	min-width: 500px;
+	width: 30%;
+	height: 500px;
+	max-height: 550px;
+	box-shadow: 0 0 40px -10px;
+	font-size: 14px;
+	padding: 20px;
+	font-size: 15px;
+	overflow: hidden;
+	border-radius: 15px;
+}
+#company {
+	background-color: white;
+	margin: 70px auto;
+	min-width: 500px;
+	width: 30%;
+	height: 500px;
+	max-height: 550px;
+	box-shadow: 0 0 40px -10px;
+	font-size: 14px;
+	padding: 20px;
+	font-size: 15px;
+	overflow: hidden;
+	display: none;
+	border-radius: 15px;
+} 
+select {
+	background-color: #f36e21;
+	height: 32px;
+	text-align: left;
+	width: 500px;
+	padding: 2px;
+	margin: 30px auto;
+	display: block;
+	border-radius: 2px;
+}
+.info {
+	text-align: center;
+	width:fit-content;
+	padding: 2px;
+	margin: 30px auto;
+	display: block;
+	background-color: white;
+	border-radius: 2px;
+}
+#company_name {
+	text-align: center;
+	letter-spacing: 0.2rem;
+	text-decoration: underline;
+}
+#career-fair-header, #count-down {
+	text-align: center;	
+	font-size: 2rem;
+	letter-spacing: 0.2rem;
+	margin: 0px;
+}
+#career-fair-header {
+	background-color: rgba(243, 110, 33, 1);
+	color: white;
+}
+h3 span {
+	letter-spacing: 0.1rem;
+	color: rgba(243, 110, 33, 1);
+}
+h3 {
+	text-align: left;
+	margin-bottom: 20px;
+}
+img {
+	width: 450px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

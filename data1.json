@@ -1,0 +1,353 @@
+{
+"option_1": {
+		"id": 1,
+		"question": "Which college do you belong to",
+		"options": [	"College of Applied Science and Technology", "Saunders College of Business", "B. Thomas Golisano College of Computing and Information Sciences", "Kate Gleason College of Engineering","College of Health Sciences and Technology","College of Imaging Arts and Sciences","College of Liberal Arts","National Technical Institute for the Deaf"]
+	},
+"College of Applied Science and Technology": {
+		"id": 2,
+		"question": "Select your major!",
+		"options": ["Environmental Health and Safety Management", "Hospitality and Tourism Management", "Human Resource Development", "Manufacturing and Mechanical Systems Integration", "Packaging Science", "Service, Leadership and Innovation", "Telecommunications Engineering Technology"]
+	},
+"Saunders College of Business": {
+		"id": 2,
+		"question": "Select your major!",
+		"options": ["MBA", "Accounting", "Finance", "Management", "Computational Finance", "Entrepreneurship and Innovative Ventures"]
+	},
+"B. Thomas Golisano College of Computing and Information Sciences": {
+		"id": 2,
+		"question": "Select your major!",
+		"options": ["Computer Science", "Computing Security", "Game Design and Development", "Information Sciences and Technologies", "Human Computer Interation", "Networking and Systems Administration", "Software Engineering"]
+	},
+"Kate Gleason College of Engineering": {
+		"id": 2,
+		"question": "Select your major!",
+		"options": ["Computer Engineering", "Electrical Engineering", "Industrial and Systems Engineering", "Manufacturing Leadership", "Mechanical Engineering", "Microelectronic Engineering", "Product Development", "Sustainable Engineering"]
+	},
+"College of Health Sciences and Technology": {
+		"id": 2,
+		"question": "Select your major!",
+		"options": ["Health Systems Administration", "Medical Illustration"]
+	},
+"College of Imaging Arts and Sciences": {
+		"id": 2,
+		"question": "Select your major!",
+		"options": ["Film and Animation", "Fine Arts Studio", "Furniture Design", "Glass", "Industrial Design", "Media Arts and Technology","Photography and Related Media","Print Media", "Visual Communication Design"]
+	},
+"National Technical Institute of the Deaf": {
+		"id": 2,
+		"question": "Select your major!",
+		"options": ["MS, Health Care Interpretation", "MS in Secondary Education of Students Who Are Deaf or Hard of Hearing"]
+	},
+"College of Liberal Arts": {
+		"id": 2,
+		"question": "Select your major!",
+		"options": ["Communication and Media Technologies", "Criminal Justice", "Experimental Psychology", "School Psychology", "Science, Technology and Public Policy"]
+	},
+"College of Science": {
+		"id": 2,
+		"question": "Select your major!",
+		"options": ["Applied and Computational Mathematics", "Applied Statistics", "Astrophysical Sciences and Technology", "Bioinformatics", "Chemistry", "Color Sciences", "Environmental Sciences", "Imaging Science", "Material Science and Engineering"]
+	},
+"Environmental Health and Safety Management": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Anoplate", "Ariel Coorporation", "Bendix Commercial Vehicle Systems LLC", "BorgWarner", "CED Greentech", "Central Intelligence Agency"],
+				   "2": ["National Grid"] }
+	},
+"Hospitality and Tourism Management": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Canon", "Central Intelligence Agency", "D4, LLC", "Federal Bureau of Investigation", "Enterprise Holdings", "Erie Insurance Group"],
+				   "2": ["Southwest Airlines", "J.C. Cannistraro, LLC"] }
+	},
+"Human Resource Development": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Canon", "Erie Insurance Group", "Bendix Commercial Vehicle Systems LLC", "Honda", "Federal Bureau of Investigation ", "Central Intelligence Agency"],
+				   "2": ["Bosch", "J.C. Cannistraro, LLC", "Penske Truck Leasing"] }
+	},
+"Manufacturing and Mechanical Systems Integration": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Alcon", "Anoplate", "Canon", "BorgWarner", "Federal Bureau of Investigation", "Central Intelligence Agency"],
+				   "2": ["Bosch", "Anaren, Inc", "Cirrus Logic, Inc", "Eastman Kodak Company", "GS Plastic Optics", "Horizon Solutions"] }
+	},
+"Packaging Science": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Carestream Health", "Canon", "CAR-FRESHNER Corporation", "Federal Bureau of Investigation", "VOLVO Group North America"],
+		           "2": ["Southwest Airlines", "The Raymond Corporation"] }
+	},
+"Service, Leadership and Innovation": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["United States Marine Corps Officer Programs", "INROADS", "Federal Bureau of Investigation", "Central Intelligence Agency"] }
+	},
+"Telecommunications Engineering Technology": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Brand Networks", "Carestream Health", "Canon", "BOSE Corporation", "Federal Bureau of Investigation", "Central Intelligence Agency"],
+		           "2": ["Bosch", "Anaren, Inc", "Cirrus Logic, Inc", "Eastman Kddak Company", "GS Plastic Optics", "Horizon Solutions"] }
+	},
+	
+"Computer Science": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Alcon", "BOSE", "Brand Networks", "Canon", "Citi", "Central Intelligence Agency", "datto", "IBM"],
+		           "2": ["Amazon", "Ahold-Delhaize", "Bank of America", "Cisco", "Eastman Kodak Company", "Microsoft"] }
+	},
+"Computing Security": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Canon", "Central Intelligence Agency", "CareStream Health", "Federal Bureau of Investigation", "datto", "IBM"],
+		           "2": ["Amzon", "Bank of America", "Bosch", "Cisco", "Eastman Kodak Company"] }
+	},
+"Game Design and Development": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Alcon", "Bose Corporation", "Brand Networks", "Federal Bureau of Investigation ", "Central Intelligence Agency", "Carestream Health"],
+		           "2": ["Ahold-Delhaize", "Anaren, Inc", "Bosch", "Cirrus Logic, Inc", "Cisco"] }
+	},
+"Information Sciences and Technologies": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["IBM", "Brand Networks", "Canon", "Bose Corporation", "Federal Bureau of Investigation", "Central Intelligence Agency", "Citi", "D4, LLC"],
+		           "2": ["Ahold-Delhaize", "Microsoft", "PayPal", "Eastman Kodak Company", "Southwest Airlines", "National Grid"] }
+	},
+"Human Computer Interaction": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Erie Insurance Group", "Brand Networks", "Canon", "Bose Corporation", "Federal Bureau of Investigation", "Central Intelligence Agency", "Citi", "datto", "INROADS"],
+		           "2": ["Ahold-Delhaize", "Amazon", "PayPal", "Eastman Kodak Company", "Southwest Airlines", "National Grid", "Bosch"] }
+	},
+"Networking and Systems Administration": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["INROADS", "Brand Networks", "Canon", "Bose Corporation", "Federal Bureau of Investigation", "Central Intelligence Agency", "Citi", "datto"],
+		           "2": ["Cicso", "Amazon", "PayPal", "Eastman Kodak Company", "Southwest Airlines", "National Grid", "Bosch", "Bank of America"] }
+	},
+"Software Engineering": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Alcon", "Brand Networks", "Carestream Health", "BOSE Corporation", "Federal Bureau of Investigation", "Central Intelligence Agency"],
+		           "2": ["Bosch", "Anaren, Inc", "Cirrus Logic, Inc", "Eastman Kddak Company", "Southwest Airlines", "PayPal", "Amazon", "Bank of America"] }
+	},
+	
+"Computer Engineering": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Alcon", "BOSE", "Brand Networks", "Canon", "Citi", "Central Intelligence Agency", "datto", "IBM", "Honda"],
+		           "2": ["Amazon", "Ahold-Delhaize", "Bank of America", "Cisco", "Eastman Kodak Company", "Microsoft"] }
+	},
+"Electrical Engineering": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Alcon", "Canon", "Central Intelligence Agency", "CareStream Health", "Federal Bureau of Investigation", "Honda", "INROADS", "IBM"],
+		           "2": ["Amazon", "Bosch", "Cisco", "Eastman Kodak Company", "GS Plastic Optics"] }
+	},
+"Industrial and Systems Engineering": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["IBM", "Brand Networks", "Canon", "Bose Corporation", "Federal Bureau of Investigation", "Central Intelligence Agency", "Citi", "D4, LLC"],
+		           "2": ["Anaren", "Bosch", "GS Plastic Optics", "Eastman Kodak Company", "Southwest Airlines", "National Grid"] }
+	},
+"Manufacturing Leadership": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Erie Insurance Group", "Brand Networks", "Canon", "Bose Corporation", "Federal Bureau of Investigation", "Central Intelligence Agency", "Citi", "datto", "INROADS"],
+		           "2": ["Bosch", "KLA-Tencor", "Penske Trusk Leasing", "Southwest Airlines", "Symbiotic, LLC", "Horizon Solutions"] }
+	},
+"Mechanical Engineering": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Alcon", "Anoplate", "BorgWarner", "Bose Corporation", "Canon", "Federal Bureau of Investigation", "Central Intelligence Agency", "Carestream Health", "Honda"],
+		           "2": ["Anaren", "Amazon", "Bosch", "Cisco", "Cirrus Logic, Inc.", "Eastman Kodak Company", "Southwest Airlines", "National Grid", "KLA-Tencor"] }
+	},
+"Microelectronics Engineering": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Honda", "IBM", "United States Marine Coprs Officer Programs", "Federal Bureau of Investigation", "Central Intelligence Agency", "Xerox"],
+		           "2": ["Bosch", "Cirrus Logic, Inc", "GS Plastic Optics", "KLA-Tencor"] }
+	},
+"Product Development": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Alcon", "Canon", "Carestream Health", "Federal Bureau of Investigation", "Central Intelligence Agency", "INROADS"],
+		           "2": ["Horizon Solutions", "National Grid", "Penske Truck Leasing", "Southwest Airlines", "Symbiotic, LLC"] }
+	},
+"Sustainable Engineering": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Federal Bureau of Investigation", "Central Intelligence Agency", "United States Marine Corps Officer Programs"],
+				   "2": ["MSA Safety Inc"] }
+	},
+"Health Systems Administration": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Federal Bureau of Investigation", "United States Marine Corps Officer Programs"],
+		           "2": ["Chess Mobile Health, Inc.", "Southwest Airlines"] }
+	},
+"Medical Illustration": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Federal Bureau of Investigation", "Central Intelligence Agency"] }
+	},
+"Film and Animation": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Federal Bureau of Investigation", "Central Intelligence Agency", "United States Marine Corps Officer Programs"] }
+	},
+"Fine Arts Studio": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Federal Bureau of Investigation", "United States Marine Corps Officer Programs"] }
+	},
+"Furniture Design": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["United States Marine Corps Officer Programs"] }
+	},
+"Glass": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["United States Marine Corps Officer Programs"] }
+	},
+"Industrial Design": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Bose", "Federal Bureau of Investigation", "United States Marine Corps Officer Programs"],
+		           "2": ["Southwest Airlines"] }
+	},
+"Media, Arts and Technology": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Central Intelligence Agency", "Federal Bureau of Investigation", "INROADS", "United States Marine Corps Officer Programs"],
+			       "2": ["Ahold-Delhaize", "Southwest Airlines"] }
+	},
+"Print Media": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Central Intelligence Agency", "Federal Bureau of Investigation", "United States Marine Corps Officer Programs"],
+		           "2": ["Ahold-Delhaize", "Southwest Airlines"]}
+	},
+"Visual Communication Design": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Central Intelligence Agency", "Federal Bureau of Investigation", "Erie Insurance Group", "United States Marine Corps Officer Programs"],
+		           "2": ["Ahold-Delhaize", "Bosch", "J.C. Cannistraro, LLC", "Southwest Airlines"] }
+	},
+"Management": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Alcon", "Canon", "Central Intelligence Agency", "Citi", "Federal Bureau of Investigation", "Erie Insurance Group", "INROADS", "United States Marine Corps Officer Programs"],
+		           "2": ["Penske Truck Leasing", "J.C. Cannistraro, LLC", "Southwest Airlines"] }
+	},
+"Accounting": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Alcon", "Canon", "Carestream Health", "Central Intelligence Agency", "Citi", "D4, LLC", "Federal Bureau of Investigation", "Honda", "INROADS", "Erie Insurance Group", "United States Marine Corps Officer Programs"],
+				   "2": ["Bosch", "J.C. Cannistraro, LLC", "Pneske Truck Leasing", "Southwest Airlines", "The Raymond Corporation"] }
+	},
+"Finance": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Alcon", "Canon", "Carestream Health", "Central Intelligence Agency", "Citi", "Federal Bureau of Investigation", "Erie Insurance Group", "HONDA", "INROADS", "United States Marine Corps Officer Programs", "XEROX"],
+		           "2": ["Bosch", "J.C. Cannistraro, LLC", "Penske Truck Leasing", "Microsoft", "Southwest Airlines"] }
+	},
+"Entrepreneurship and Innovative Ventures": {
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["CED Greentech", "United States Marine Corps Officer Programs"] }
+	}, 
+"Computational Finance":{
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Alcon", "United States Marine Corps Officer Programs"],
+		           "2": ["Bosch", "J.C. Cannistraro, LLC", "Penske Truck Leasing", "Microsoft", "Southwest Airlines"] }
+	},
+"Health Care Intpretation":{
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["United States Marine Corps Officer Programs"] }
+	},
+"Secondary Education of Students Who Are Deaf or Hard of Hearing":{
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Alcon", "Canon", "Carestream Health", "Central Intelligence Agency", "Federal Bureau of Investigation", "Honda", "United States Marine Corps Officer Programs"],
+		           "2": ["Eastman Kodak Company", "KLA-Tencor", "Southwest Airlines"] }
+	},
+"Communication and Media Technologies":{
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Alcon", "CED Greentech", "Central Intelligence Agency", "Federal Bureau of Investigation", "INROADS", "United States Marine Corps Officer Programs"],
+		           "2": ["Bosch", "CHESS Mobile Health , Inc.", "Southwest Airlines"] }
+	},
+"Criminal Justice":{
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Central Intelligence Agency", "United States Marine Corps Officer Programs"],
+		           "2": ["J.C. Cannistraro, LLC"] }
+	},
+"Experimental Psychology":{
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Central Intelligence Agency", "Federal Bureau of Investigation", "United States Marine Corps Officer Programs"] }
+	},
+"Science, Technology and Public Policy":{
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Central Intelligence Agency", "Federal Bureau of Investigation"] }
+	},
+"Applied and Computational Mathematics":{
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Brand Networks", "Central Intelligence Agency", "Citi", "Federal Bureau of Investigation", "IBM", "INROADS", "United States Marine Corps Officer Programs"],
+	               "2": ["Amazon", "Bosch", "CHESS Mobile Health , Inc.", "KLA-Tencor", "Eastman Kodak Company", "Microasoft", "Southwest Airlines"] }
+	},
+"Applied Statistics":{
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Central Intelligence Agency", "Citi", "Erie Insurance Group", "Federal Bureau of Investigation", "IBM", "United States Marine Corps Officer Programs"],
+			       "2": ["Ahold-Delhaize", "Amazon", "Bosch", "CHESS Mobile Health, Inc.", "Microsoft", "Southwest Airlines"] }
+	},
+"Astrophysical Sciences and Technology":{
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Federal Bureau of Investigation", "United States Marine Corps Officer Programs"] }
+	},
+"Bioinformatics":{
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Alcon", "Canon", "Federal Bureau of Investigation", "INROADS", "United States Marine Corps Officer Programs"] }
+	},
+"Chemistry":{
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Alcon", "Canon", "Central Intelligence Agency", "Federal Bureau of Investigation", "INROADS", "United States Marine Corps Officer Programs"],
+		           "2": ["Eastman Kodak Company", "KLA-Tencor"] }
+	},
+"Color Science":{
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Federal Bureau of Investigation", "United States Marine Corps Officer Programs"],
+			       "2": ["KLA-Tencor"] }
+	},
+"Environmental Sciences":{
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Central Intelligence Agency", "Federal Bureau of Investigation", "United States Marine Corps Officer Programs"] }
+	},
+"Imaging Science":{
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Canon", "Central Intelligence Agency", "Federal Bureau of Investigation", "United States Marine Corps Officer Programs"],
+		           "2": ["KLA-Tencor"] }
+	},
+"Material Science and Engineering":{
+		"id": 3,
+		"question": "Select a company.",
+		"options": { "1": ["Alcon", "Canon", "Carestream Health", "Central Intelligence Agency", "Federal Bureau of Investigation", "Honda", "United States Marine Corps Officer Programs"],
+		           "2": ["Eastman Kodak Company", "KLA-Tencor", "Southwest Airlines"] }
+	}
+}
